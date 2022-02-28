@@ -1,0 +1,8 @@
+create a contact program which takes name,emails, phone, notes,work details
+saves the data to different tables on database. 
+endpoints:
+edit
+list
+search
+create
+delete
