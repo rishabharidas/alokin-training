@@ -1,3 +1,4 @@
+-- inserting data from one table to another which have differnrt column name but same data
 create database if not exists sqltrain ;
 use sqltrain;
 create table if not exists table1(id integer primary key,name varchar(25));
