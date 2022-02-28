@@ -20,12 +20,12 @@ with open("day_3/csvtest.csv","r") as csv_data: # loading file to csv_data
         match_test_row_number1 = re.match(number_reg_eleven_digits,row[2])
         match_test2_row_number1 = re.match(number_reg_ten_digits,row[2])
         match_test3_row_number1 = re.match(number_reg_twelve_digits,row[2])
-        """----------------------------------------------------------------"""
+
         """matching regx for phone number2.-------------------------------"""
         match_test_row_number2 = re.match(number_reg_eleven_digits,row[3])
         match_test2_row_number2 = re.match(number_reg_ten_digits,row[3])
         match_test3_row_number2 = re.match(number_reg_twelve_digits,row[3])
-        """----------------------------------------------------------------"""
+
         if match_test_row_number1: # condition for if eleven digits
             row_number1 = \
                 f"+1({match_test_row_number1[1]})"\
