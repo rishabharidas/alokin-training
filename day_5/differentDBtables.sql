@@ -1,4 +1,6 @@
--- insert data from one databases table to another databasess table
+
+-- insert data from one databases table to another DB table (testing merge)
+
 create database if not exists sqltrain2;
 use sqltrain2;
 create table if not exists table2(id integer primary key,username varchar(25));
