@@ -1,3 +1,4 @@
+-- join 2 tables and save data to a new table
 create database if not exists sqltrain ;
 use sqltrain;
 create table if not exists leftjoinedtable as select table1.id, table1.name,jointable.location,jointable.country from table1 left join jointable on table1.id = jointable.id;
