@@ -1,5 +1,5 @@
 
--- insert data from one databases table to another DB table (testing merge)
+-- insert data from one databases table to another DB table
 
 create database if not exists sqltrain2;
 use sqltrain2;
