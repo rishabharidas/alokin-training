@@ -1,0 +1,2 @@
+program to read data from CSV (fname, lname, phone1, phone2, email1, email2)
+validate phonenumbers and emails; reformat phones to US format if its id a valid number. and write those data which are sorted based on fname/lname to a new csv file

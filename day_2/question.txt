@@ -1,0 +1,8 @@
+create a contact program which takes name,emails, phone, notes,work details
+saves the file to a json. 
+function/operations for
+1. creating anew contact
+2. listing all contacts
+3. searching a single contact.
+4. editing a conatact
+5. deleting a contact
